@@ -1,1 +1,46 @@
-INDEX.css
+* {
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-y: hidden;
+  color: #e5e9ea;
+  /* box-sizing: border-box; */
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(13, 14, 13);
+  animation: bodychange 4s linear infinite;
+}
+.slogan {
+  font-style: oblique;
+  color: #94e2fa;
+  margin: 0;
+}
+#heading {
+  color: #94e2fa;
+  margin: 0;
+}
+nav {
+  font-family: 'Roboto Slab', serif;
+  height: 15%;
+}
+nav ul {
+  padding: 0.5rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 39px;
+  background-color: rgb(32, 35, 35);
+  color: white;
+}
+nav ul li {
+  padding: 12px;
+  margin: 0;
